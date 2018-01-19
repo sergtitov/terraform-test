@@ -14,5 +14,5 @@ resource "aws_instance" "example" {
   ami           = "ami-2757f631"
   instance_type = "t2.micro"
   subnet_id  = "subnet-e35940b8"
-  count = 2
+  count = 4
 }
